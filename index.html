@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ganesha Tour & Travel - Agen Perjalanan & Tour Organizer | Yogyakarta (Contoh Tampilan)</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Ganesha Tour & Travel (PT. Ganesha Tour Travel) - Agen tour & travel di Yogyakarta. Murah, Asik, Terpercaya. Paket wisata domestik (Kulon Progo, Jogja A-B-C, Pangandaran, Bromo, Bali) & internasional (Bangkok-Pattaya). Contoh tampilan - bukan situs resmi." />
+  <meta name="keywords"
+    content="Ganesha Tour & Travel, PT Ganesha Tour Travel, Tour Travel Yogyakarta, Paket Wisata Jogja, Kulon Progo, Bromo, Bali, Bangkok Pattaya, Open Trip Jogja, City Tour Jogja" />
+  <meta name="author" content="Ganesha Tour & Travel" />
+  <meta name="robots" content="noindex, nofollow" />
+
+  <!-- Open Graph / Social Media Meta Tags -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Ganesha Tour & Travel - Murah, Asik, Terpercaya | Yogyakarta" />
+  <meta property="og:description"
+    content="Paket wisata domestik dan internasional bersama Ganesha Tour & Travel (PT. Ganesha Tour Travel). Contoh tampilan - bukan situs resmi." />
+  <meta property="og:image" content="images/logo-brand.jpg" />
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Ganesha Tour & Travel - Paket Wisata Domestik & Internasional" />
+  <meta name="twitter:description"
+    content="Agen Perjalanan Wisata & Tour Organizer di Yogyakarta. Murah, Asik, Terpercaya. Contoh tampilan - bukan situs resmi." />
+  <meta name="twitter:image" content="images/logo-brand.jpg" />
+
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap"
+    rel="stylesheet" />
+
+  <!-- Font Awesome 6.5.1 CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Stylesheet (Vanilla CSS) -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- HEADER & NAVIGATION -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="#" class="logo-link" aria-label="Ganesha Tour & Travel Beranda">
+        <img src="images/logo-brand.jpg" alt="Logo Ganesha Tour & Travel" class="logo-img" width="40" height="40" />
+        <div class="logo-text-wrap">
+          <span class="logo-title">GANESHA TOUR &amp; TRAVEL</span>
+          <span class="logo-sub">PT. Ganesha Tour Travel • Yogyakarta</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation (4 Menu Utama + Dropdown Lainnya) -->
+      <nav class="nav-desktop" aria-label="Navigasi Utama">
+        <a href="#beranda" class="nav-link active">Beranda</a>
+        <a href="#paket-wisata" class="nav-link">Paket Wisata</a>
+        <a href="#layanan" class="nav-link">Layanan</a>
+        <a href="#keunggulan" class="nav-link">Keunggulan</a>
+        <div class="nav-dropdown">
+          <button type="button" class="nav-dropdown-btn" aria-expanded="false" aria-haspopup="true">
+            <span>Lainnya</span> <i class="fa-solid fa-chevron-down nav-dropdown-icon"></i>
+          </button>
+          <div class="nav-dropdown-menu">
+            <a href="#galeri" class="nav-dropdown-link"><i class="fa-solid fa-images"></i> Galeri Wisata</a>
+            <a href="#ulasan" class="nav-dropdown-link"><i class="fa-solid fa-comments"></i> Ulasan</a>
+            <a href="#faq" class="nav-dropdown-link"><i class="fa-solid fa-circle-question"></i> FAQ</a>
+            <a href="#kontak" class="nav-dropdown-link"><i class="fa-solid fa-paper-plane"></i> Kontak &amp; Booking</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="header-actions">
+        <a href="https://wa.me/6281232266028?text=Halo%20Ganesha%20Tour%20Travel,%20saya%20ingin%20tanya%20paket%20wisata"
+          target="_blank" rel="noopener noreferrer" class="btn btn-sm header-cta-btn"
+          aria-label="Chat WhatsApp Ganesha Tour & Travel">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span>WhatsApp Hotline</span>
+        </a>
+
+        <button id="mobile-toggle" class="mobile-toggle" aria-label="Buka Menu Navigasi Mobile" aria-expanded="false">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MOBILE NAVIGATION DRAWER -->
+  <div id="mobile-nav-drawer" class="mobile-nav-drawer">
+    <a href="#beranda" class="mobile-nav-link"><i class="fa-solid fa-house"></i> Beranda</a>
+    <a href="#paket-wisata" class="mobile-nav-link"><i class="fa-solid fa-suitcase-rolling"></i> Paket Wisata</a>
+    <a href="#layanan" class="mobile-nav-link"><i class="fa-solid fa-bell-concierge"></i> Bentuk Layanan</a>
+    <a href="#keunggulan" class="mobile-nav-link"><i class="fa-solid fa-award"></i> Keunggulan</a>
+    <a href="#galeri" class="mobile-nav-link"><i class="fa-solid fa-images"></i> Galeri Wisata</a>
+    <a href="#ulasan" class="mobile-nav-link"><i class="fa-solid fa-comments"></i> Ulasan Wisatawan</a>
+    <a href="#faq" class="mobile-nav-link"><i class="fa-solid fa-circle-question"></i> FAQ &amp; Tanya Jawab</a>
+    <a href="#kontak" class="mobile-nav-link"><i class="fa-solid fa-paper-plane"></i> Kontak &amp; Booking Instan</a>
+
+    <div style="margin-top: 14px;">
+      <a href="https://wa.me/6281232266028?text=Halo%20Ganesha%20Tour%20Travel,%20saya%20ingin%20tanya%20paket%20wisata"
+        target="_blank" rel="noopener noreferrer" class="btn btn-accent" style="width:100%;">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span>Hubungi via WhatsApp</span>
+      </a>
+    </div>
+  </div>
+
+  <main>
+    <!-- 1. HERO SECTION -->
+    <section id="beranda" class="hero">
+      <div class="hero-bg">
+        <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1920&q=80"
+          alt="Pemandangan alam wisata bersama Ganesha Tour & Travel" loading="eager" width="1920" height="1080"
+          onerror="this.onerror=null;this.src='images/placeholder-travel.svg'" />
+      </div>
+      <div class="hero-overlay"></div>
+
+      <div class="container">
+        <div class="hero-content fade-in">
+          <div class="hero-badge">
+            <span class="pulse-dot"></span>
+            <span>Ganesha Tour &amp; Travel • Yogyakarta</span>
+          </div>
+
+          <h1 class="hero-title">
+            Wisata Seru &amp; Berkesan <span>Murah, Asik, Terpercaya</span>
+          </h1>
+
+          <p class="hero-desc">
+            PT. Ganesha Tour Travel menghadirkan ragam paket wisata domestik dan internasional terbaik dari Yogyakarta. Temukan pengalaman liburan impian ke Kulon Progo, Jogja Heritage, Pangandaran, Bromo, Bali, hingga Bangkok–Pattaya dengan layanan prima.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#kontak" class="btn btn-accent">
+              <i class="fa-solid fa-paper-plane"></i>
+              <span>Booking &amp; Konsultasi</span>
+            </a>
+            <a href="#paket-wisata" class="btn btn-outline-light">
+              <i class="fa-solid fa-suitcase-rolling"></i>
+              <span>Pilihan Paket Wisata</span>
+            </a>
+          </div>
+
+          <!-- Credentials & Features Display -->
+          <div class="hero-stats">
+            <div class="stat-item">
+              <div class="stat-icon">
+                <i class="fa-solid fa-tags"></i>
+              </div>
+              <div>
+                <div class="stat-num">Mulai Rp250.000 / pax</div>
+                <div class="stat-label">Tarif hemat &amp; transparan</div>
+              </div>
+            </div>
+
+            <div class="stat-item">
+              <div class="stat-icon">
+                <i class="fa-solid fa-map-location-dot"></i>
+              </div>
+              <div>
+                <div class="stat-num">8 Pilihan Paket</div>
+                <div class="stat-label">Domestik &amp; Internasional</div>
+              </div>
+            </div>
+
+            <div class="stat-item">
+              <div class="stat-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div>
+                <div class="stat-num">Yogyakarta</div>
+                <div class="stat-label">Jl. Babarsari, Sleman, DIY</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEARCH / FILTER BAR -->
+    <div class="filter-bar-section">
+      <div class="container">
+        <div class="filter-card fade-in">
+          <div class="filter-grid">
+            <div class="filter-item">
+              <span class="filter-label">Kota Asal / Penjemputan</span>
+              <div class="filter-box">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Yogyakarta / Sekitarnya</span>
+              </div>
+            </div>
+
+            <div class="filter-item">
+              <span class="filter-label">Bentuk Layanan</span>
+              <div class="filter-box">
+                <i class="fa-solid fa-suitcase"></i>
+                <span>Tour, Outbond, Study Tour &amp; Religi</span>
+              </div>
+            </div>
+
+            <div class="filter-item">
+              <span class="filter-label">Jam Operasional</span>
+              <div class="filter-box">
+                <i class="fa-solid fa-clock"></i>
+                <span>Senin–Jumat (08.00–16.00) | Sabtu–Minggu (09.00–15.00)</span>
+              </div>
+            </div>
+          </div>
+
+          <a href="https://wa.me/6281232266028?text=Halo%20Ganesha%20Tour%20Travel,%20saya%20ingin%20cek%20ketersediaan%20jadwal%20paket%20wisata"
+            target="_blank" rel="noopener noreferrer" class="btn btn-accent">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <span>Cek Ketersediaan Tour</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. PAKET WISATA SECTION (SATU SECTION TERPUSAT) -->
+    <section id="paket-wisata" class="section">
+      <div class="container">
+        <div class="text-center fade-in">
+          <span class="section-tag"><i class="fa-solid fa-compass"></i> PAKET WISATA</span>
+          <h2 class="section-title">Temukan Program &amp; Paket Wisata Pilihan</h2>
+          <p class="section-desc mx-auto">
+            Jelajahi keindahan Kulon Progo, Yogyakarta, Pangandaran, Bromo, Bali, hingga Bangkok–Pattaya bersama Ganesha Tour &amp; Travel. Seluruh paket dirancang agar liburan Anda selalu hemat, asik, dan terpercaya.
+          </p>
+        </div>
+
+        <!-- Interactive Category Filter Bar -->
+        <div class="pkg-filter-bar fade-in">
+          <button type="button" class="pkg-filter-btn active" data-filter="all"><i class="fa-solid fa-border-all"></i> Semua Paket</button>
+          <button type="button" class="pkg-filter-btn" data-filter="domestik"><i class="fa-solid fa-map-location-dot"></i> Wisata Domestik</button>
+          <button type="button" class="pkg-filter-btn" data-filter="internasional"><i class="fa-solid fa-earth-asia"></i> Wisata Internasional</button>
+        </div>
+
+        <!-- Dynamic Container hydrated by packages.js -->
+        <div id="packages-grid" class="packages-grid">
+          <!-- 8 Cards rendered by packages.js -->
+        </div>
+
+        <p class="packages-disclaimer fade-in">* Seluruh harga yang tercantum merupakan estimasi mulai dari per orang; konfirmasi ketersediaan tanggal, penawaran resmi, serta fasilitas paket dikonfirmasi via WhatsApp.</p>
+
+        <!-- CTA Penutup Section Paket -->
+        <div class="pkg-closing-cta fade-in">
+          <div class="pkg-closing-cta-content">
+            <div class="pkg-closing-cta-icon">
+              <i class="fa-solid fa-headset"></i>
+            </div>
+            <div class="pkg-closing-cta-text">
+              <h3 class="pkg-closing-cta-title">Ingin Konsultasi Rute atau Custom Paket?</h3>
+              <p class="pkg-closing-cta-desc">Diskusikan destinasi impian dan kebutuhan perjalanan Anda bersama tim Ganesha Tour &amp; Travel.</p>
+            </div>
+          </div>
+          <a href="https://wa.me/6281232266028?text=Halo%20Ganesha%20Tour%20Travel,%20saya%20ingin%20konsultasi%20pilihan%20paket%20wisata%20custom" target="_blank" rel="noopener noreferrer" class="btn btn-accent pkg-closing-cta-btn">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span>Konsultasi via WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. BENTUK LAYANAN SECTION -->
+    <section id="layanan" class="section section-alt">
+      <div class="container">
+        <div class="text-center fade-in">
+          <span class="section-tag"><i class="fa-solid fa-bell-concierge"></i> Bentuk Layanan</span>
+          <h2 class="section-title">Layanan Perjalanan &amp; Tour Kami</h2>
+          <p class="section-desc mx-auto">
+            PT. Ganesha Tour Travel menyediakan ragam solusi layanan perjalanan lengkap dan profesional di Yogyakarta untuk instansi, perusahaan, sekolah, maupun keluarga.
+          </p>
+        </div>
+
+        <div class="armada-grid">
+          <!-- Layanan 1 -->
+          <article class="armada-card fade-in">
+            <div class="armada-img-wrap">
+              <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=800&q=80" alt="Layanan Perjalanan Wisata Ganesha Tour & Travel" loading="lazy" class="armada-img" onerror="this.onerror=null;this.src='images/placeholder-travel.svg'" />
+              <span class="armada-badge"><i class="fa-solid fa-route"></i> Wisata Tour</span>
+            </div>
+            <div class="armada-body">
+              <h3 class="armada-title">Perjalanan Wisata</h3>
+              <div class="armada-capacity">
+                <i class="fa-solid fa-globe"></i>
+                <span>Domestik &amp; Internasional</span>
+              </div>
+              <p class="armada-desc">
+                Paket perjalanan wisata menyeluruh untuk rombongan maupun perorangan ke beragam destinasi eksotis nusantara dan mancanegara dengan jadwal yang terencana rapi.
+              </p>
+              <div class="armada-price-box">
+                <span class="armada-price-label">Ragam Pilihan Destinasi</span>
+                <div class="armada-price-val">
+                  Keluarga &amp; Grup <span class="armada-price-unit">/ Fleksibel</span>
+                </div>
+              </div>
+              <a href="https://wa.me/6281232266028?text=Halo%20Ganesha%20Tour%20Travel,%20saya%20ingin%20konsultasi%20layanan%20Perjalanan%20Wisata"
+                target="_blank" rel="noopener noreferrer" class="armada-btn">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>Konsultasi Layanan</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Layanan 2 -->
+          <article class="armada-card fade-in">
+            <div class="armada-img-wrap">
+              <img src="https://images.unsplash.com/photo-1596402184320-417e7178b2cd?auto=format&fit=crop&w=800&q=80" alt="Layanan City Tour Yogyakarta Ganesha Tour & Travel" loading="lazy" class="armada-img" onerror="this.onerror=null;this.src='images/placeholder-travel.svg'" />
+              <span class="armada-badge"><i class="fa-solid fa-city"></i> Eksplorasi Kota</span>
+            </div>
+            <div class="armada-body">
+              <h3 class="armada-title">City Tour</h3>
+              <div class="armada-capacity">
+                <i class="fa-solid fa-landmark"></i>
+                <span>Spot Heritage &amp; Ikonik</span>
+              </div>
+              <p class="armada-desc">
+                Menjelajahi keindahan budaya, destinasi bersejarah, spot foto kekinian, dan kuliner khas Yogyakarta serta kota-kota sekitarnya secara santai dan nyaman.
+              </p>
+              <div class="armada-price-box">
+                <span class="armada-price-label">Pilihan Rute Fleksibel</span>
+                <div class="armada-price-val">
+                  City Tour Jogja <span class="armada-price-unit">/ Harian</span>
+                </div>
+              </div>
+              <a href="https://wa.me/6281232266028?text=Halo%20Ganesha%20Tour%20Travel,%20saya%20ingin%20konsultasi%20layanan%20City%20Tour"
+                target="_blank" rel="noopener noreferrer" class="armada-btn">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>Konsultasi Layanan</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Layanan 3 -->
+          <article class="armada-card fade-in">
+            <div class="armada-img-wrap">
+              <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80" alt="Layanan Study Tour Ganesha Tour & Travel" loading="lazy" class="armada-img" onerror="this.onerror=null;this.src='images/placeholder-travel.svg'" />
+              <span class="armada-badge"><i class="fa-solid fa-graduation-cap"></i> Edukasi &amp; Rekreasi</span>
+            </div>
+            <div class="armada-body">
+              <h3 class="armada-title">Study Tour</h3>
+              <div class="armada-capacity">
+                <i class="fa-solid fa-school"></i>
+                <span>Sekolah &amp; Universitas</span>
+              </div>
+              <p class="armada-desc">
+                Program perjalanan edukasi untuk siswa dan mahasiswa yang memadukan wawasan keilmuan, sejarah, sains, serta rekreasi bernilai edukatif tinggi.
+              </p>
+              <div class="armada-price-box">
+                <span class="armada-price-label">Program Tematik Pelajar</span>
+                <div class="armada-price-val">
+                  Paket Rombongan <span class="armada-price-unit">/ Edukatif</span>
+                </div>
+              </div>
+              <a href="https://wa.me/6281232266028?text=Halo%20Ganesha%20Tour%20Travel,%20saya%20ingin%20konsultasi%20layanan%20Study%20Tour"
+                target="_blank" rel="noopener noreferrer" class="armada-btn">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>Konsultasi Layanan</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Layanan 4 -->
+          <article class="armada-card fade-in">
+            <div class="armada-img-wrap">
+              <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=800&q=80" alt="Layanan Outbond Ganesha Tour & Travel" loading="lazy" class="armada-img" onerror="this.onerror=null;this.src='images/placeholder-travel.svg'" />
+              <span class="armada-badge"><i class="fa-solid fa-campground"></i> Team Building</span>
+            </div>
+            <div class="armada-body">
+              <h3 class="armada-title">Outbond</h3>
+              <div class="armada-capacity">
+                <i class="fa-solid fa-users"></i>
+                <span>Fun Games &amp; Soliditas</span>
+              </div>
+              <p class="armada-desc">
+                Aktivitas di alam terbuka, team building, fun games, dan petualangan seru untuk memperkuat kekompakan karyawan, komunitas, maupun organisasi.
+              </p>
+              <div class="armada-price-box">
+                <span class="armada-price-label">Pengembangan Kapasitas Tim</span>
+                <div class="armada-price-val">
+                  Team Building <span class="armada-price-unit">/ Outdoor</span>
+                </div>
+              </div>
+              <a href="https://wa.me/6281232266028?text=Halo%20Ganesha%20Tour%20Travel,%20saya%20ingin%20konsultasi%20layanan%20Outbond"
+                target="_blank" rel="noopener noreferrer" class="armada-btn">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>Konsultasi Layanan</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Layanan 5 -->
+          <article class="armada-card fade-in">
+            <div class="armada-img-wrap">
+              <img src="https://images.unsplash.com/photo-1564769625905-50e93615e769?auto=format&fit=crop&w=800&q=80" alt="Layanan Wisata Religi Ganesha Tour & Travel" loading="lazy" class="armada-img" onerror="this.onerror=null;this.src='images/placeholder-travel.svg'" />
+              <span class="armada-badge"><i class="fa-solid fa-mosque"></i> Ziarah &amp; Spiritual</span>
+            </div>
+            <div class="armada-body">
+              <h3 class="armada-title">Wisata Religi</h3>
+              <div class="armada-capacity">
+                <i class="fa-solid fa-hands-praying"></i>
+                <span>Perjalanan Khidmat</span>
+              </div>
+              <p class="armada-desc">
+                Perjalanan ziarah dan spiritual yang tertib, khidmat, dan aman dengan pendampingan berpengalaman ke situs-situs bersejarah religi terkemuka.
+              </p>
+              <div class="armada-price-box">
+                <span class="armada-price-label">Rute Khidmat &amp; Tertib</span>
+                <div class="armada-price-val">
+                  Ziarah Religi <span class="armada-price-unit">/ Rombongan</span>
+                </div>
+              </div>
+              <a href="https://wa.me/6281232266028?text=Halo%20Ganesha%20Tour%20Travel,%20saya%20ingin%20konsultasi%20layanan%20Wisata%20Religi"
+                target="_blank" rel="noopener noreferrer" class="armada-btn">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>Konsultasi Layanan</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Layanan 6 -->
+          <article class="armada-card fade-in">
+            <div class="armada-img-wrap">
+              <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80" alt="Layanan Visit Company Kunjungan Industri Ganesha Tour & Travel" loading="lazy" class="armada-img" onerror="this.onerror=null;this.src='images/placeholder-travel.svg'" />
+              <span class="armada-badge"><i class="fa-solid fa-building-circle-check"></i> Benchmarking</span>
+            </div>
+            <div class="armada-body">
+              <h3 class="armada-title">Visit Company / Kunjungan Industri</h3>
+              <div class="armada-capacity">
+                <i class="fa-solid fa-industry"></i>
+                <span>Instansi &amp; Kampus</span>
+              </div>
+              <p class="armada-desc">
+                Fasilitas studi banding, benchmarking, dan kunjungan kerja formal ke korporasi, pabrik manufaktur, sentra industri kreatif, serta instansi resmi.
+              </p>
+              <div class="armada-price-box">
+                <span class="armada-price-label">Kunjungan Kerja Formal</span>
+                <div class="armada-price-val">
+                  Company Visit <span class="armada-price-unit">/ Profesional</span>
+                </div>
+              </div>
+              <a href="https://wa.me/6281232266028?text=Halo%20Ganesha%20Tour%20Travel,%20saya%20ingin%20konsultasi%20layanan%20Kunjungan%20Industri"
+                target="_blank" rel="noopener noreferrer" class="armada-btn">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>Konsultasi Layanan</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. KEUNGGULAN SECTION -->
+    <section id="keunggulan" class="section">
+      <div class="container">
+        <div class="text-center fade-in">
+          <span class="section-tag"><i class="fa-solid fa-award"></i> Keunggulan Layanan</span>
+          <h2 class="section-title">Mengapa Memilih Ganesha Tour &amp; Travel?</h2>
+          <p class="section-desc mx-auto">
+            Komitmen kami menghadirkan perjalanan yang murah, asik, dan terpercaya dengan standar pelayanan terbaik untuk setiap momen liburan Anda.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-item fade-in">
+            <div class="feature-icon-box">
+              <i class="fa-solid fa-tags"></i>
+            </div>
+            <h3 class="feature-title">Harga Terjangkau &amp; Transparan</h3>
+            <p class="feature-desc">
+              Paket wisata hemat berkualitas dengan rincian biaya yang jelas tanpa biaya tak terduga, memberikan nilai terbaik untuk budget perjalanan Anda.
+            </p>
+          </div>
+          <div class="feature-item fade-in">
+            <div class="feature-icon-box">
+              <i class="fa-solid fa-bus-simple"></i>
+            </div>
+            <h3 class="feature-title">Armada Nyaman &amp; Terawat</h3>
+            <p class="feature-desc">
+              Transportasi berstandar pariwisata ber-AC dingin, bersih, dan prima serta dikemudikan driver profesional yang ramah dan paham rute wisata.
+            </p>
+          </div>
+          <div class="feature-item fade-in">
+            <div class="feature-icon-box">
+              <i class="fa-solid fa-route"></i>
+            </div>
+            <h3 class="feature-title">Itinerary Asik &amp; Fleksibel</h3>
+            <p class="feature-desc">
+              Pilihan rute wisata yang seru, waktu eksplorasi objek yang leluasa, dan opsi penyesuaian jadwal sesuai kebutuhan rombongan maupun keluarga.
+            </p>
+          </div>
+          <div class="feature-item fade-in">
+            <div class="feature-icon-box">
+              <i class="fa-solid fa-headset"></i>
+            </div>
+            <h3 class="feature-title">Pelayanan Ramah &amp; Terpercaya</h3>
+            <p class="feature-desc">
+              Didukung tim tour leader dan layanan konsultasi WhatsApp responsif yang siap mendampingi kebutuhan perjalanan Anda mulai perencanaan hingga kepulangan.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. GALERI WISATA SECTION (LIGHTBOX VIEWER) -->
+    <section id="galeri" class="section section-alt">
+      <div class="container">
+        <div class="text-center fade-in">
+          <span class="section-tag"><i class="fa-solid fa-images"></i> Galeri Perjalanan</span>
+          <h2 class="section-title">Galeri Destinasi Wisata Pilihan</h2>
+          <p class="section-desc mx-auto">
+            Potret keindahan destinasi yang terdapat dalam paket wisata Ganesha Tour &amp; Travel. Klik foto untuk melihat tampilan penuh (Foto berlisensi terbuka Unsplash).
+          </p>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item fade-in" title="Klik untuk memperbesar gambar">
+            <img src="https://images.unsplash.com/photo-1584810359583-96fc3448beaa?auto=format&fit=crop&w=1200&q=80" alt="Candi Prambanan, Yogyakarta" loading="lazy" width="400" height="300" class="gallery-img" onerror="this.onerror=null;this.src='images/placeholder-travel.svg'" />
+            <div class="gallery-overlay">
+              <div>
+                <span class="gallery-tag">Yogyakarta</span>
+                <div class="gallery-title">Candi Prambanan</div>
+              </div>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+          <div class="gallery-item fade-in" title="Klik untuk memperbesar gambar">
+            <img src="https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1200&q=80" alt="Kebun Teh Nglinggo, Kulon Progo" loading="lazy" width="400" height="300" class="gallery-img" onerror="this.onerror=null;this.src='images/placeholder-travel.svg'" />
+            <div class="gallery-overlay">
+              <div>
+                <span class="gallery-tag">Kulon Progo</span>
+                <div class="gallery-title">Kebun Teh Nglinggo</div>
+              </div>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+          <div class="gallery-item fade-in" title="Klik untuk memperbesar gambar">
+            <img src="https://images.unsplash.com/photo-1596402184320-417e7178b2cd?auto=format&fit=crop&w=1200&q=80" alt="Taman Sari, Yogyakarta" loading="lazy" width="400" height="300" class="gallery-img" onerror="this.onerror=null;this.src='images/placeholder-travel.svg'" />
+            <div class="gallery-overlay">
+              <div>
+                <span class="gallery-tag">Yogyakarta</span>
+                <div class="gallery-title">Taman Sari</div>
+              </div>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+          <div class="gallery-item fade-in" title="Klik untuk memperbesar gambar">
+            <img src="https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=1200&q=80" alt="Gunung Merapi, Yogyakarta" loading="lazy" width="400" height="300" class="gallery-img" onerror="this.onerror=null;this.src='images/placeholder-travel.svg'" />
+            <div class="gallery-overlay">
+              <div>
+                <span class="gallery-tag">Yogyakarta</span>
+                <div class="gallery-title">Gunung Merapi &amp; Kaliurang</div>
+              </div>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+          <div class="gallery-item fade-in" title="Klik untuk memperbesar gambar">
+            <img src="https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1200&q=80" alt="Green Canyon, Pangandaran" loading="lazy" width="400" height="300" class="gallery-img" onerror="this.onerror=null;this.src='images/placeholder-travel.svg'" />
+            <div class="gallery-overlay">
+              <div>
+                <span class="gallery-tag">Pangandaran</span>
+                <div class="gallery-title">Green Canyon</div>
+              </div>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+          <div class="gallery-item fade-in" title="Klik untuk memperbesar gambar">
+            <img src="https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1200&q=80" alt="Wat Arun, Bangkok Thailand" loading="lazy" width="400" height="300" class="gallery-img" onerror="this.onerror=null;this.src='images/placeholder-travel.svg'" />
+            <div class="gallery-overlay">
+              <div>
+                <span class="gallery-tag">Thailand</span>
+                <div class="gallery-title">Wat Arun, Bangkok</div>
+              </div>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+          <div class="gallery-item fade-in" title="Klik untuk memperbesar gambar">
+            <img src="https://images.unsplash.com/photo-1588668214407-6ea9a6d8c272?auto=format&fit=crop&w=1200&q=80" alt="Sunrise di Gunung Bromo" loading="lazy" width="400" height="300" class="gallery-img" onerror="this.onerror=null;this.src='images/placeholder-travel.svg'" />
+            <div class="gallery-overlay">
+              <div>
+                <span class="gallery-tag">Jawa Timur</span>
+                <div class="gallery-title">Sunrise Gunung Bromo</div>
+              </div>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+          <div class="gallery-item fade-in" title="Klik untuk memperbesar gambar">
+            <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1200&q=80" alt="Pura Ulun Danu Bedugul, Bali" loading="lazy" width="400" height="300" class="gallery-img" onerror="this.onerror=null;this.src='images/placeholder-travel.svg'" />
+            <div class="gallery-overlay">
+              <div>
+                <span class="gallery-tag">Bali</span>
+                <div class="gallery-title">Pura Ulun Danu Bedugul</div>
+              </div>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LIGHTBOX MODAL CONTAINER -->
+    <div id="lightbox-modal" class="lightbox-modal" aria-hidden="true" role="dialog">
+      <div class="lightbox-container">
+        <button id="lightbox-close" class="lightbox-close" aria-label="Tutup foto viewer">&times;</button>
+        <button id="lightbox-prev" class="lightbox-nav lightbox-prev" aria-label="Foto sebelumnya"><i
+            class="fa-solid fa-chevron-left"></i></button>
+        <img id="lightbox-img" class="lightbox-img" src="" alt="Gallery Preview" />
+        <button id="lightbox-next" class="lightbox-nav lightbox-next" aria-label="Foto selanjutnya"><i
+            class="fa-solid fa-chevron-right"></i></button>
+        <div id="lightbox-caption" class="lightbox-caption"></div>
+      </div>
+    </div>
+
+    <!-- 6. TESTIMONI PARALLAX SECTION -->
+    <section id="ulasan" class="section parallax-section"
+      style="background-image: url('https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1920&q=80'), url('images/placeholder-travel.svg');">
+      <div class="container parallax-content">
+        <div class="text-center fade-in">
+          <span class="section-tag" style="background: rgba(255,255,255,0.2); color: #FEF202;"><i
+              class="fa-solid fa-comments"></i> Ulasan Wisatawan</span>
+          <h2 class="section-title" style="color: #FFFFFF;">Pengalaman Bersama Kami</h2>
+          <p class="section-desc mx-auto" style="color: rgba(255,255,255,0.92);">
+            Cerita dan kesan positif dari para wisatawan yang telah mempercayakan agenda liburan dan perjalanan mereka bersama Ganesha Tour &amp; Travel.
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          <article class="testimonial-card fade-in">
+            <div>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <p class="testimonial-text">
+                "Liburan keluarga keliling Jogja dan Pantai Parangtritis sangat berkesan! Waktu kunjungan diatur pas tidak terburu-buru, armada bersih dan driver-nya sangat ramah. Harganya terjangkau tapi pelayanannya sangat memuaskan."
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <div class="avatar">RP</div>
+              <div>
+                <div class="author-name">Rizky Pratama</div>
+                <div class="author-role">Wisatawan Keluarga • Paket Jogja A</div>
+              </div>
+            </div>
+          </article>
+          <article class="testimonial-card fade-in">
+            <div>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <p class="testimonial-text">
+                "Ikut Open Trip Kulon Progo bareng teman-teman kantor, suasananya seru dan asik banget. Spot foto di Nglinggo dan Kedung Pedut bagus-bagus. Tour leader komunikatif dan profesional. Pasti bakal repeat order!"
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <div class="avatar">DA</div>
+              <div>
+                <div class="author-name">Dewi Anggraini</div>
+                <div class="author-role">Peserta Open Trip • Kulon Progo</div>
+              </div>
+            </div>
+          </article>
+          <article class="testimonial-card fade-in">
+            <div>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <p class="testimonial-text">
+                "Acara gathering kantor ke Bromo terlaksana dengan lancar tanpa kendala. Koordinasi Jeep 4x4 untuk sunrise sangat tertib dan dokumentasinya mantap. Benar-benar sesuai tagline-nya: Murah, Asik, Terpercaya!"
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <div class="avatar">FN</div>
+              <div>
+                <div class="author-name">Fajar Nugroho</div>
+                <div class="author-role">Koordinator Rombongan • Sunrise Bromo</div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. FAQ SECTION -->
+    <section id="faq" class="section">
+      <div class="container">
+        <div class="text-center fade-in">
+          <span class="section-tag"><i class="fa-solid fa-circle-question"></i> Tanya Jawab</span>
+          <h2 class="section-title">Pertanyaan yang Sering Diajukan</h2>
+          <p class="section-desc mx-auto">
+            Temukan jawaban atas pertanyaan umum seputar reservasi paket wisata, bentuk layanan, dan jadwal operasional Ganesha Tour &amp; Travel.
+          </p>
+        </div>
+
+        <div class="faq-wrap">
+          <div class="faq-item fade-in">
+            <button type="button" class="faq-question" aria-expanded="false">
+              <span>1. Bagaimana cara memesan paket wisata di Ganesha Tour &amp; Travel?</span>
+              <i class="fa-solid fa-chevron-down faq-chevron"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Anda dapat memilih paket wisata pada katalog di atas lalu klik tombol <strong>Book Now</strong> untuk langsung terhubung ke WhatsApp kami di <strong>0812-3226-6028</strong> dengan format pemesanan otomatis. Anda juga dapat mengisi <strong>Form Booking Instan</strong> di bawah untuk mendapatkan respon cepat.</p>
+            </div>
+          </div>
+
+          <div class="faq-item fade-in">
+            <button type="button" class="faq-question" aria-expanded="false">
+              <span>2. Apa saja bentuk layanan yang disediakan oleh Ganesha Tour &amp; Travel?</span>
+              <i class="fa-solid fa-chevron-down faq-chevron"></i>
+            </button>
+            <div class="faq-answer">
+              <p>PT. Ganesha Tour Travel menyediakan layanan <strong>Perjalanan Wisata</strong> (domestik &amp; internasional), <strong>City Tour</strong>, <strong>Study Tour</strong> sekolah/kampus, kegiatan <strong>Outbond &amp; Team Building</strong>, <strong>Wisata Religi</strong> / Ziarah, serta <strong>Visit Company / Kunjungan Industri</strong>.</p>
+            </div>
+          </div>
+
+          <div class="faq-item fade-in">
+            <button type="button" class="faq-question" aria-expanded="false">
+              <span>3. Di mana alamat kantor dan jam operasional Ganesha Tour &amp; Travel?</span>
+              <i class="fa-solid fa-chevron-down faq-chevron"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Kantor kami beralamat di <strong>Jl. Babarsari, Tambak Bayan, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281</strong>. Jam operasional kami adalah <strong>Senin – Jumat (08.00 - 16.00 WIB)</strong> dan <strong>Sabtu – Minggu (09.00 - 15.00 WIB)</strong>.</p>
+            </div>
+          </div>
+
+          <div class="faq-item fade-in">
+            <button type="button" class="faq-question" aria-expanded="false">
+              <span>4. Paket wisata apa saja yang saat ini tersedia?</span>
+              <i class="fa-solid fa-chevron-down faq-chevron"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Tersedia 7 paket wisata domestik: Open Trip Kulon Progo, Yogyakarta Paket A, Yogyakarta Paket B, Yogyakarta Paket C, Pangandaran, Sunrise di Bromo, dan Pulau Bali. Serta 1 paket wisata internasional: Bangkok–Pattaya (4 Hari 3 Malam).</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. CTA BOOKING & KONSULTASI SECTION -->
+    <section id="kontak" class="section section-alt">
+      <div class="container">
+        <div class="text-center fade-in">
+          <span class="section-tag"><i class="fa-solid fa-paper-plane"></i> Hubungi &amp; Reservasi</span>
+          <h2 class="section-title">Kontak &amp; Booking Instan</h2>
+          <p class="section-desc mx-auto">
+            Isi formulir reservasi di bawah ini atau hubungi tim customer service kami untuk konsultasi rencana perjalanan Anda.
+          </p>
+        </div>
+
+        <div class="contact-booking-grid fade-in">
+          <!-- Left Side: Contact Info & Mini Maps -->
+          <div class="contact-card-side">
+            <div>
+              <h3>Ganesha Tour &amp; Travel</h3>
+              <p><strong>PT. Ganesha Tour Travel</strong> • Yogyakarta</p>
+              <p style="font-size: 0.88rem; color: var(--color-primary); font-weight: 700; margin-bottom: 16px;">
+                Tagline: <em>"Murah, Asik, Terpercaya"</em>
+              </p>
+              <div class="contact-list">
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="fa-brands fa-whatsapp"></i>
+                  </div>
+                  <div>
+                    <div class="contact-label">WhatsApp (Konsultasi &amp; Booking)</div>
+                    <a href="https://wa.me/6281232266028" target="_blank" rel="noopener noreferrer"
+                      class="contact-val">0812-3226-6028 (+62 812-3226-6028)</a>
+                  </div>
+                </div>
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="fa-brands fa-instagram"></i>
+                  </div>
+                  <div>
+                    <div class="contact-label">Instagram</div>
+                    <a href="https://www.instagram.com/ganeshatourtravel/" target="_blank" rel="noopener noreferrer"
+                      class="contact-val">@ganeshatourtravel</a>
+                  </div>
+                </div>
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="fa-solid fa-clock"></i>
+                  </div>
+                  <div>
+                    <div class="contact-label">Jam Operasional</div>
+                    <div class="contact-val" style="font-weight: 500; font-size: 0.86rem; line-height: 1.45;">
+                      Senin – Jumat (08.00 - 16.00 WIB)<br />
+                      Sabtu – Minggu (09.00 - 15.00 WIB)
+                    </div>
+                  </div>
+                </div>
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <div>
+                    <div class="contact-label">Alamat Kantor</div>
+                    <div class="contact-val" style="font-weight: 400; font-size: 0.86rem; line-height: 1.45;">
+                      Jl. Babarsari, Tambak Bayan, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Mini Embedded Google Maps -->
+            <div class="map-mini-container">
+              <iframe
+                src="https://maps.google.com/maps?q=Jl.+Babarsari%2C+Tambak+Bayan%2C+Caturtunggal%2C+Kec.+Depok%2C+Kabupaten+Sleman%2C+Daerah+Istimewa+Yogyakarta+55281&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                title="Peta Lokasi PT. Ganesha Tour Travel, Yogyakarta" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+          </div>
+
+          <!-- Right Side: Form Booking Instan -->
+          <div class="booking-form-card">
+            <h3><i class="fa-solid fa-bolt" style="color:var(--color-mustard);"></i> Form Booking Instan</h3>
+            <p>Dapatkan konfirmasi ketersediaan paket dan penawaran langsung via WhatsApp.</p>
+
+            <form id="instant-booking-form" class="booking-form">
+              <div class="form-group">
+                <label for="booking-name" class="form-label"><i class="fa-solid fa-user"></i> Nama Lengkap</label>
+                <input type="text" id="booking-name" class="form-input" required placeholder="Contoh: Budi Santoso" />
+              </div>
+
+              <div class="form-group">
+                <label for="booking-phone" class="form-label"><i class="fa-brands fa-whatsapp"></i> No. WhatsApp</label>
+                <input type="tel" id="booking-phone" class="form-input" required placeholder="Contoh: 08xxxxxxxxxx" />
+              </div>
+
+              <div class="form-group">
+                <label for="booking-package" class="form-label"><i class="fa-solid fa-map-location-dot"></i> Pilihan Paket Wisata</label>
+                <select id="booking-package" class="form-select" required>
+                  <option value="Open Trip Kulon Progo">Open Trip Kulon Progo (Mulai Rp250.000)</option>
+                  <option value="Yogyakarta Paket A">Yogyakarta Paket A (Mulai Rp250.000)</option>
+                  <option value="Yogyakarta Paket B">Yogyakarta Paket B (Mulai Rp250.000)</option>
+                  <option value="Yogyakarta Paket C">Yogyakarta Paket C (Mulai Rp250.000)</option>
+                  <option value="Pangandaran">Pangandaran (Mulai Rp750.000)</option>
+                  <option value="Bangkok–Pattaya">Bangkok–Pattaya (Rp2.900.000)</option>
+                  <option value="Sunrise di Bromo">Sunrise di Bromo (Mulai Rp685.000)</option>
+                  <option value="Pulau Bali">Pulau Bali (Rp1.600.000)</option>
+                  <option value="Konsultasi / Custom Tour Lainnya">Konsultasi / Custom Tour Lainnya</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="booking-date" class="form-label"><i class="fa-solid fa-calendar"></i> Rencana Tanggal Berangkat</label>
+                <input type="date" id="booking-date" class="form-input" />
+              </div>
+
+              <div class="form-group">
+                <label for="booking-guests" class="form-label"><i class="fa-solid fa-users"></i> Jumlah Peserta</label>
+                <input type="number" id="booking-guests" class="form-input" min="1" value="2" required />
+              </div>
+
+              <div class="form-group full-width">
+                <label for="booking-notes" class="form-label"><i class="fa-solid fa-pen-to-square"></i> Catatan Khusus / Permintaan Khusus</label>
+                <textarea id="booking-notes" class="form-textarea"
+                  placeholder="Contoh: jumlah rombongan, request objek wisata tambahan, kebutuhan konsumsi/hotel..."></textarea>
+              </div>
+
+              <div class="form-group full-width">
+                <button type="submit" class="btn btn-accent" style="width:100%;">
+                  <i class="fa-brands fa-whatsapp"></i>
+                  <span>Kirim Booking via WhatsApp</span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FLOATING WHATSAPP BUTTON -->
+  <div class="floating-wa">
+    <a href="https://wa.me/6281232266028?text=Halo%20Ganesha%20Tour%20Travel,%20saya%20ingin%20konsultasi%20paket%20wisata" target="_blank"
+      rel="noopener noreferrer" class="btn-floating-wa" aria-label="Tanya Tour via WhatsApp">
+      <i class="fa-brands fa-whatsapp"></i>
+      <span>Tanya Tour WA</span>
+    </a>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h4>GANESHA TOUR &amp; TRAVEL</h4>
+          <p>
+            <strong>PT. Ganesha Tour Travel</strong><br />
+            Jl. Babarsari, Tambak Bayan, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281.<br />
+            Tagline: <em>Murah, Asik, Terpercaya</em>
+          </p>
+          <div class="footer-demo-badge">
+            <i class="fa-solid fa-triangle-exclamation"></i> Contoh tampilan - bukan situs resmi
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h5>Navigasi</h5>
+          <div class="footer-links">
+            <a href="#beranda">Beranda</a>
+            <a href="#paket-wisata">Paket Wisata</a>
+            <a href="#layanan">Bentuk Layanan</a>
+            <a href="#keunggulan">Keunggulan</a>
+            <a href="#galeri">Galeri Wisata</a>
+            <a href="#faq">FAQ</a>
+            <a href="#kontak">Kontak &amp; Booking</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h5>Paket Wisata</h5>
+          <div class="footer-links">
+            <a href="#paket-wisata">Open Trip Kulon Progo</a>
+            <a href="#paket-wisata">Yogyakarta Paket A, B, C</a>
+            <a href="#paket-wisata">Pangandaran</a>
+            <a href="#paket-wisata">Sunrise di Bromo</a>
+            <a href="#paket-wisata">Pulau Bali</a>
+            <a href="#paket-wisata">Bangkok–Pattaya</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h5>Kontak &amp; Alamat</h5>
+          <div class="footer-links">
+            <span><i class="fa-solid fa-location-dot"></i> Babarsari, Sleman, Yogyakarta 55281</span>
+            <span><i class="fa-solid fa-clock"></i> Senin–Jumat 08.00–16.00 | Sabtu–Minggu 09.00–15.00 WIB</span>
+            <a href="https://wa.me/6281232266028" target="_blank" rel="noopener noreferrer"><i
+                class="fa-brands fa-whatsapp"></i> 0812-3226-6028</a>
+            <a href="https://www.instagram.com/ganeshatourtravel/" target="_blank" rel="noopener noreferrer"><i
+                class="fa-brands fa-instagram"></i> @ganeshatourtravel</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 PT. Ganesha Tour Travel. Yogyakarta. All rights reserved.</div>
+        <div>Contoh tampilan - bukan situs resmi</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS SCRIPTS -->
+  <script src="js/main.js"></script>
+  <script src="js/packages.js"></script>
+</body>
+
+</html>
